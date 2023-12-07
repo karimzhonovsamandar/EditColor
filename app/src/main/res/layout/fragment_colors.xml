@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".fragment.ColorsFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/firstBox"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#E91E63"
+            android:layout_marginEnd="20dp"/>
+
+        <TextView
+            android:id="@+id/secondBox"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#F44336"
+            android:layout_marginEnd="20dp"/>
+
+        <TextView
+            android:id="@+id/thirdBox"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#3F51B5"
+            android:layout_marginEnd="20dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/fourthBox"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#8BC34A"
+            android:layout_marginEnd="20dp"/>
+
+        <TextView
+            android:id="@+id/fiveBox"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#03A9F4"
+            android:layout_marginEnd="20dp"/>
+
+        <TextView
+            android:id="@+id/sixBox"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#FFEB3B"
+            android:layout_marginEnd="20dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/sevenBox"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#009688"
+            android:layout_marginEnd="20dp"/>
+
+        <TextView
+            android:id="@+id/eightBox"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#FF9800"
+            android:layout_marginEnd="20dp"/>
+
+        <TextView
+            android:id="@+id/nineBox"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#673AB7"
+            android:layout_marginEnd="20dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
